@@ -6,9 +6,9 @@
 
 .crypto-info-container {
     display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 50px 140px 190px 190px 190px 190px ;
-    grid-template-areas: "image name price marketcap volume supply";
+    grid-template-rows: 1px;
+    grid-template-columns: 120px 50px 20px 190px 190px 190px 190px ;
+    grid-template-areas: "searchbar button empty price marketcap volume supply";
     padding: 25px;
     width: 950px;
     height: 0px;
@@ -20,27 +20,34 @@
 
 }
 
-.name-pic{
-    width: 20px;
-    height: 20px;
-
+.crypto-button{
+    grid-area: button;
+    height: 30px;
+    align-self: center;
 }
 
 
-.crypto-info-name{
-    grid-area: name;
+.crypto-searchbar{
+    grid-area: searchbar;
+    height: 30px;
+    width: 100px;
+    align-self: center;
 }
 
 .crypto-info-price{
     grid-area: price;
+    align-self: center;
 }
 
 .crypto-info-mc{
     grid-area: marketcap;
+    align-self: center;
 }
 .crypto-info-vol{
     grid-area: volume;
+    align-self: center;
 }
 .crypto-info-sup{
     grid-area: supply;
+    align-self: center;
 }

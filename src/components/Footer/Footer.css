@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-body{
+    background-color: #21242F;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}

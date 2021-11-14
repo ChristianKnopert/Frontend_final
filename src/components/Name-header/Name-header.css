@@ -1,0 +1,38 @@
+
+
+.info-name-container{
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 50px 140px 190px 190px 190px 190px ;
+    grid-template-areas: "image name price marketcap volume supply";
+    padding: 25px;
+    margin: auto auto;
+    width: 950px;
+    color: white;
+    background-color: #293241;
+    font-size: 15px;
+
+}
+
+.header-n{
+    grid-area: name;
+    align-self: center;
+
+}
+
+.header-p{
+    grid-area: price;
+    align-self: center;
+}
+.header-m{
+    grid-area: marketcap;
+    align-self: center;
+}
+.header-v{
+    grid-area: volume;
+    align-self: center;
+}
+.header-s{
+    grid-area: supply;
+    align-self: center;
+}

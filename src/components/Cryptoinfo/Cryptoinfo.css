@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+
+.crypto-info-container-info {
+    display: grid;
+    grid-template-rows: 1px;
+    grid-template-columns: 50px 140px 190px 190px 190px 190px;
+    grid-template-areas: "logo crypto price marketcap volume supply";
+    padding: 25px;
+    width: 950px;
+    height: 0px;
+    margin: auto auto;
+    color: white;
+    background-color: #21242F;
+    font-size: 15px;
+    border-bottom: 2px solid #293241;
+
+}
+
+.logo{
+    grid-area: logo;
+    height: 20px;
+    width: 20px;
+    align-self: center;
+}
+
+
+.crypto-info{
+    grid-area: crypto;
+    align-self: center;
+}
+
+.crypto-info-price{
+    grid-area: price;
+    align-self: center;
+}
+
+.crypto-info-mc{
+    grid-area: marketcap;
+    align-self: center;
+}
+.crypto-info-vol{
+    grid-area: volume;
+    align-self: center;
+}
+.crypto-info-sup{
+    grid-area: supply;
+    align-self: center;
+}
