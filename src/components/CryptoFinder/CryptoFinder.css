@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.crypto-info-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 50px 140px 190px 190px 190px 190px ;
+    grid-template-areas: "image name price marketcap volume supply";
+    padding: 25px;
+    width: 950px;
+    height: 0px;
+    margin: auto auto;
+    color: white;
+    background-color: #21242F;
+    font-size: 15px;
+    border-bottom: 2px solid #293241;
+
+}
+
+.name-pic{
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.crypto-info-name{
+    grid-area: name;
+}
+
+.crypto-info-price{
+    grid-area: price;
+}
+
+.crypto-info-mc{
+    grid-area: marketcap;
+}
+.crypto-info-vol{
+    grid-area: volume;
+}
+.crypto-info-sup{
+    grid-area: supply;
+}
